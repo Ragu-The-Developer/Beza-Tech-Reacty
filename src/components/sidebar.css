@@ -1,0 +1,23 @@
+/* src/components/Sidebar.css */
+.sidebar {
+  width: 350px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.nav-link {
+  font-size: 1.1rem !important;
+}
+
+.nav-link:hover {
+  background-color: #0d6efd !important;
+  color: white !important;
+  border-radius: 5px;
+}
+
+
+
