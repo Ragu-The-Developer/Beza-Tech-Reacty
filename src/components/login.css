@@ -1,0 +1,9 @@
+.login-left {
+  background-image: url('../assets/login-img.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.login-box {
+  max-width: 60% !important;
+}
