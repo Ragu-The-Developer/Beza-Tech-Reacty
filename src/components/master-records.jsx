@@ -95,7 +95,7 @@ const Master = () => {
         {cards.map((card, index) => (
           <div key={index} className="col-md-6 col-lg-4 mb-4">
             <div className={`info-card card-${index}`}>
-              <div className="arrow-icon">&#10148;</div>
+              <div className="arrow-icon text-white ">&#10148;</div>
               <h6>{card.title}</h6>
               <p>{card.desc}</p>
             </div>

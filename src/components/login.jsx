@@ -1,8 +1,14 @@
 import React from 'react';
 import './login.css';
 import loginlogo from '../assets/login-logo.png';
-
+import { useNavigate } from 'react-router-dom';
 const Login = () => {
+
+    const navigate = useNavigate();
+
+    const goto = () => {
+        navigate('/assign-task');
+    }
 
     return (
         <div className="container-full min-vh-100 d-flex align-items-center justify-content-center bg-white">
@@ -69,7 +75,7 @@ const Login = () => {
 
      
                         <div className='d-flex justify-content-center'>
-                        <button className="btn btn-primary w-75 p-2 mt-3 shadow-lg" style={{ borderRadius: '25px' }}>Login</button>
+                        <button className="btn btn-primary w-75 p-2 mt-3 shadow-lg" style={{ borderRadius: '25px' }} onClick={goto}>Login</button>
                         </div>
 
                     </form>
