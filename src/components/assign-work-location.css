@@ -13,8 +13,25 @@
   padding-top: 60px; /* if header is fixed */
 }
 
+.assign-box {
+  max-width: 400px;
+  border-radius: 15px;
+}
+
+.input-custom {
+  border: none;
+  border-radius: 0.375rem;
+}
+
+.input-group-text i {
+  font-size: 1.1rem;
+}
+
+
 .main-content {
   margin-left: 350px;
   width: calc(100% - 250px);
   background-color: #fdfdfd;
 }
+
+
