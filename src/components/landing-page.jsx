@@ -23,7 +23,7 @@ const Welcome = () => {
         backgroundRepeat: 'no-repeat', }}>
       <img src={Logo} alt="Logo" className="mb-3" style={{  height: '80px' }} />
 
-      <form onSubmit={navigationhandle}>
+     
       <h1 className="fw-bold mb-3" >
         Welcome to the Admin <br /> Dashboard
       </h1>
@@ -32,10 +32,10 @@ const Welcome = () => {
         Efficiently manage attendance, leaves, claims, and payroll in one place.
       </p>
 
-      <button className="btn btn-primary px-4 py-2 fw-semibold">
+      <button className="btn btn-primary px-4 py-2 fw-semibold" onClick={navigationhandle}>
         Get Started&nbsp;<span aria-hidden="true">↗</span>
       </button>
-      </form>
+    
     </div>
   );
 };

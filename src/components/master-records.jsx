@@ -31,7 +31,7 @@ const Master = () => {
     {
       title: 'Expense Claims',
       desc: 'Review employee-submitted bills and reimbursement statuses.',
-    },
+    }
   ];
 
     return (
@@ -91,7 +91,7 @@ const Master = () => {
         </div>
       </div>
 
-      <div className="row">
+      <div className="row mt-5">
         {cards.map((card, index) => (
           <div key={index} className="col-md-6 col-lg-4 mb-4">
             <div className={`info-card card-${index}`}>

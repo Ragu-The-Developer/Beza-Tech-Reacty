@@ -14,7 +14,7 @@ const Login = () => {
         <div className="container-full min-vh-100 d-flex align-items-center justify-content-center bg-white">
             <div className="row w-100  shadow-lg rounded overflow-hidden login-box">
 
-                {/* Left Section congtainer */}
+             {/* Left Section congtainer */}
                 <div className="col-md-6 d-none d-md-block p-0 position-relative text-start">
                     <div className="login-left h-100 w-100">
                         <div className="login-left-content text-white p-4 position-absolute">
@@ -32,7 +32,7 @@ const Login = () => {
                     </div>
                 </div>
 
-                {/* Right Section Container */}
+            {/* Right Section Container */}
                 <div className="col-md-6 bg-white p-5">
                     <h4 className="text-center fw-bold mb-1" style={{ color: '#3AB6FF' }}>Login</h4>
                     <p className="text-center text-muted mb-4" >Admin Dashboard Entry Point.</p>

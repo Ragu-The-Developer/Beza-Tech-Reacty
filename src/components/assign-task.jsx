@@ -3,6 +3,7 @@ import Bell from '../assets/bell.png';
 import User from '../assets/user.png';
 import React, { useEffect, useState } from 'react';
 import Sidebar from './sidebar';
+import axios from 'axios';
 
 const Header = () => {
   const [currentDate] = useState(new Date()); //getting current date
@@ -18,12 +19,14 @@ const Header = () => {
 );
 
 
-  useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/users")
-      .then((res) => res.json())
-      .then((data) => setUsers(data))
-      .catch((err) => console.error("Error fetching data:", err));
-  }, []);
+  // useEffect(() => {
+  //   fetch("https://jsonplaceholder.typicode.com/users")
+  //     .then((res) => res.json())
+  //     .then((data) => setUsers(data))
+  //     .catch((err) => console.error("Error fetching data:", err));
+  // }, []);
+
+  
 
   return (
     <div className="d-flex">
