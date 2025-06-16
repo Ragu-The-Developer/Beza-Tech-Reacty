@@ -1,0 +1,54 @@
+.employee-header img {
+  width: 48px;
+  height: 48px;
+}
+
+.info-card {
+  background-color: #eaf3ff;
+  padding: 20px;
+  border-radius: 12px;
+  color: #0d1b2a;
+  transition: transform 0.2s;
+  height: 100%;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.info-card:hover {
+  transform: translateY(-4px);
+}
+
+.arrow-icon {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #1d4ed8;
+}
+
+.card-0 {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.card-1 {
+  background-color: #0a58ca;
+  color: white;
+}
+
+.card-2 {
+  background-color: #60a5fa;
+  color: white;
+}
+
+.card-3 {
+  background-color: #cfe2ff;
+}
+
+.card-4 {
+  background-color: #74c0fc;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .info-card {
+    padding: 16px;
+  }
+}
